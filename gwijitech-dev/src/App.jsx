@@ -1,17 +1,13 @@
 import Navbar from "./components/common/Navbar";
+import Hero from "./components/home/Hero";
 
 function App() {
   return (
       <div className="min-h-screen bg-slate-950 text-white">
             <Navbar />
+                  <Hero />
+                      </div>
+                        );
+                        }
 
-                  <main className="flex h-[80vh] items-center justify-center">
-                          <h1 className="text-5xl font-bold text-cyan-400">
-                                    Welcome to GWIJITECH.dev 🚀
-                                            </h1>
-                                                  </main>
-                                                      </div>
-                                                        );
-                                                        }
-
-                                                        export default App;
+                        export default App;
