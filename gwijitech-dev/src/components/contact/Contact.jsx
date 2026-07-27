@@ -76,7 +76,7 @@ function Contact() {
               className="flex items-center gap-4 rounded-xl bg-slate-950 p-4 transition hover:bg-slate-800"
             >
               <FaEnvelope className="text-2xl text-cyan-400" />
-              <span>your@email.com</span>
+              <span>hamsogwiji@gmail.com</span>
             </a>
 
             <a
@@ -108,6 +108,7 @@ function Contact() {
 
             <ul className="mt-4 space-y-2 text-slate-300">
               <li>✅ Frontend Development</li>
+              <li>✅ Backend Development</li>
               <li>✅ React & Vite Projects</li>
               <li>✅ UI/UX Improvements</li>
               <li>✅ Web Application Development</li>
