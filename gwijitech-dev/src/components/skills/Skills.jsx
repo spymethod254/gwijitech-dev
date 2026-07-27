@@ -26,97 +26,97 @@ import {
 const skills = [
   {
     name: "React",
-    icon: <SiReact className="text-5xl text-sky-400" />,
+    icon: <SiReact className="text-4xl text-sky-400" />,
     description: "Building interactive and reusable user interfaces.",
   },
   {
     name: "Next.js",
-    icon: <SiNextdotjs className="text-5xl text-white" />,
+    icon: <SiNextdotjs className="text-4xl text-white" />,
     description: "Building fast React applications with server-side rendering.",
   },
   {
     name: "Vite",
-    icon: <SiVite className="text-5xl text-violet-400" />,
+    icon: <SiVite className="text-4xl text-violet-400" />,
     description: "Lightning-fast frontend development tooling.",
   },
   {
     name: "JavaScript",
-    icon: <SiJavascript className="text-5xl text-yellow-400" />,
+    icon: <SiJavascript className="text-4xl text-yellow-400" />,
     description: "The core language of modern web development.",
   },
   {
     name: "Python",
-    icon: <SiPython className="text-5xl text-yellow-500" />,
+    icon: <SiPython className="text-4xl text-yellow-500" />,
     description: "Building automation scripts, AI tools, and backend applications.",
   },
   {
     name: "PHP",
-    icon: <SiPhp className="text-5xl text-indigo-400" />,
+    icon: <SiPhp className="text-4xl text-indigo-400" />,
     description: "Developing dynamic websites and backend services.",
   },
   {
     name: "Tailwind CSS",
-    icon: <SiTailwindcss className="text-5xl text-cyan-400" />,
+    icon: <SiTailwindcss className="text-4xl text-cyan-400" />,
     description: "Utility-first CSS for beautiful responsive designs.",
   },
   {
     name: "Node.js",
-    icon: <SiNodedotjs className="text-5xl text-green-500" />,
+    icon: <SiNodedotjs className="text-4xl text-green-500" />,
     description: "Building fast and scalable backend applications.",
   },
   {
     name: "Express",
-    icon: <SiExpress className="text-5xl text-gray-300" />,
+    icon: <SiExpress className="text-4xl text-gray-300" />,
     description: "Minimal and flexible Node.js web framework.",
   },
   {
     name: "Supabase",
-    icon: <SiSupabase className="text-5xl text-emerald-400" />,
+    icon: <SiSupabase className="text-4xl text-emerald-400" />,
     description: "Authentication, PostgreSQL database, and storage.",
   },
   {
     name: "SQLite",
-    icon: <SiSqlite className="text-5xl text-sky-500" />,
+    icon: <SiSqlite className="text-4xl text-sky-500" />,
     description: "Lightweight SQL database for local applications.",
   },
   {
     name: "MongoDB",
-    icon: <SiMongodb className="text-5xl text-green-500" />,
+    icon: <SiMongodb className="text-4xl text-green-500" />,
     description: "NoSQL database for scalable web applications.",
   },
   {
     name: "Git",
-    icon: <SiGit className="text-5xl text-orange-500" />,
+    icon: <SiGit className="text-4xl text-orange-500" />,
     description: "Version control for tracking code changes.",
   },
   {
     name: "GitHub",
-    icon: <SiGithub className="text-5xl text-white" />,
+    icon: <SiGithub className="text-4xl text-white" />,
     description: "Code hosting and collaboration platform.",
   },
   {
     name: "Linux",
-    icon: <SiLinux className="text-5xl text-yellow-500" />,
+    icon: <SiLinux className="text-4xl text-yellow-500" />,
     description: "Daily development using Linux environments and tools.",
   },
   {
     name: "Bash",
-    icon: <FaTerminal className="text-5xl text-green-400" />,
+    icon: <FaTerminal className="text-4xl text-green-400" />,
     description: "Terminal commands and shell scripting for productivity.",
   },
   {
     name: "Debugging",
-    icon: <FaBug className="text-5xl text-red-400" />,
+    icon: <FaBug className="text-4xl text-red-400" />,
     description: "Finding, analyzing, and fixing software issues efficiently.",
   },
   {
     name: "Vercel",
-    icon: <SiVercel className="text-5xl text-white" />,
+    icon: <SiVercel className="text-4xl text-white" />,
     description: "Deploying fast and reliable frontend applications.",
   },
   {
     name: "Render",
-    icon: <SiRender className="text-5xl text-blue-400" />,
+    icon: <SiRender className="text-4xl text-blue-400" />,
     description: "Hosting backend services and APIs.",
   },
 ];
@@ -147,7 +147,8 @@ const skills = [
                                                                                                                                                                                                                                                                                                                                 </motion.div>
 
                                                                                                                                                                                                                                                                                                                                         {/* Skills Grid */}
-                                                                                                                                                                                                                                                                                                                                                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                                                                                                                                                                                                                                                                                                                                                
+<div className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
                                                                                                                                                                                                                                                                                                                                                           {skills.map((skill, index) => (
                                                                                                                                                                                                                                                                                                                                                                       <motion.div
                                                                                                                                                                                                                                                                                                                                                                                     key={skill.name}
@@ -175,11 +176,11 @@ const skills = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {skill.icon}
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </div>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <h3 className="mb-2 text-xl font-bold">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <h3 className="mb-2 text-lg font-bold">
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {skill.name}
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           </h3>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <p className="text-sm text-slate-400">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <p className="text-xs text-slate-400">
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {skill.description}
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           </div>
