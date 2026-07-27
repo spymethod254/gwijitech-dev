@@ -9,6 +9,25 @@ import {
               SiSupabase,
                 SiGithub,
                 } from "react-icons/si";
+import {
+  SiReact,
+  SiVite,
+  SiJavascript,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiExpress,
+  SiSupabase,
+  SiGithub,
+  SiPython,
+  SiNextdotjs,
+  SiLinux,
+  SiPhp,
+} from "react-icons/si";
+
+import {
+  FaBug,
+  FaTerminal,
+} from "react-icons/fa";
 
                 const skills = [
                   {
@@ -21,6 +40,38 @@ import {
                                           icon: <SiVite className="text-5xl text-violet-400" />,
                                               description: "Lightning-fast frontend development tooling.",
                                                 },
+
+{
+  name: "Python",
+  icon: <SiPython className="text-5xl text-yellow-400" />,
+  description: "Building automation scripts, AI tools, and backend applications.",
+},
+{
+  name: "Next.js",
+  icon: <SiNextdotjs className="text-5xl text-white" />,
+  description: "Building fast React applications with server-side rendering.",
+},
+{
+  name: "Linux",
+  icon: <SiLinux className="text-5xl text-yellow-500" />,
+  description: "Working comfortably in Linux environments and system administration.",
+},
+{
+  name: "Debugging",
+  icon: <FaBug className="text-5xl text-red-400" />,
+  description: "Finding, analyzing, and fixing software issues efficiently.",
+},
+{
+  name: "PHP",
+  icon: <SiPhp className="text-5xl text-indigo-400" />,
+  description: "Building dynamic web applications and backend functionality.",
+},
+{
+  name: "Bash",
+  icon: <FaTerminal className="text-5xl text-green-400" />,
+  description: "Using terminal commands and shell scripting to automate workflows.",
+},
+
                                                   {
                                                       name: "JavaScript",
                                                           icon: <SiJavascript className="text-5xl text-yellow-400" />,
@@ -75,8 +126,8 @@ import {
                                                                                                                                                                                                                                                                                         </h2>
 
                                                                                                                                                                                                                                                                                                   <p className="mt-3 mb-12 text-center text-slate-400">
-                                                                                                                                                                                                                                                                                                              Technologies I use to craft modern digital experiences.
-                                                                                                                                                                                                                                                                                                                        </p>
+  A collection of the technologies, tools, and platforms I use to design, build, debug, and deploy modern applications.
+</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
                                                                                                                                                                                                                                                                                                                                 </motion.div>
 
                                                                                                                                                                                                                                                                                                                                         {/* Skills Grid */}
