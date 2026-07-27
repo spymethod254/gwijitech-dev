@@ -9,6 +9,7 @@ import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Stats from "./components/home/Stats";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/common/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -34,6 +35,8 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+
+      <Footer />
     </div>
   );
 }
