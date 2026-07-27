@@ -8,6 +8,7 @@ import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Stats from "./components/home/Stats";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ function App() {
       <Stats />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
