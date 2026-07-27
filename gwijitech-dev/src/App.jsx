@@ -7,6 +7,7 @@ import Hero from "./components/home/Hero";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
+import Stats from "./components/home/Stats";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Stats />
       <Skills />
       <Projects />
     </div>
